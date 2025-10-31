@@ -37,7 +37,7 @@ class _WebViewHomePageState extends State<WebViewHomePage> {
   late final WebViewController _controller;
   StreamSubscription<List<ConnectivityResult>>? _connectivitySubscription;
 
-  final String _url = 'https://xploratarjetas.azurewebsites.net/';
+  final String _url = 'https://xploratarjetas.azurewebsites.net/login_persona.php';
 
   @override
   void initState() {
